@@ -1,0 +1,29 @@
+.carousel-bgc {
+    width: 95%;
+    background-image: url(../../assets/images/carousel-bg.png);
+    margin: 0 auto;
+    .carousel-main1 {
+        padding: 150px 0px 150px;
+        .carousel-main1-left {
+      h1 {
+        color: #2c2d2e;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 40px;
+        padding: 10px 0px 10px;
+      }
+      p {
+        color: #2c2d2e;
+        font-size: 15px;
+        line-height: 20px;
+        padding: 10px 0px 10px;
+      }
+      button {
+        padding: 15px 25px;
+        border-radius: 4px;
+        background: #ef7c00;
+        margin: 10px 0px 10px;
+      }
+    }
+  }
+}

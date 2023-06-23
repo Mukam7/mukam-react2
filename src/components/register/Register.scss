@@ -1,0 +1,24 @@
+.register {
+  background-image: url(../../assets/images/information.png);
+  background-repeat: no-repeat;
+  background-position: center;
+
+  h1,
+  p {
+    padding: 25px 0px 25px;
+  }
+
+  input {
+    height: 50px;
+    margin-left: 25px;
+    border-radius: 0px 4px 4px 0px;
+    border: 1px solid var(--borders-color-border, rgba(0, 16, 61, 0.12));
+    background: var(--main-color-bg, #fff);
+  }
+
+  textarea {
+    width: 250px;
+    height: 150px;
+    margin: 50px 0px 50px 50px;
+  }
+}
