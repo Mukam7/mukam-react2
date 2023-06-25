@@ -8,15 +8,16 @@ export class Register extends Component {
       <div className="container register">
         <h1>Получить подробную информацию</h1>
         <p>
-          Просто заполните форму, наш менеджер свяжется с <br/> вами в ближайшее время
+          Просто заполните форму, наш менеджер свяжется с <br /> вами в
+          ближайшее время
         </p>
         <div className="login-register">
           <input type="text" placeholder="Ваше имя"></input>
           <input type="text" placeholder="+375 (29) 0000000"></input>
         </div>
-        <textarea>Комментарий</textarea> <br/>
-        <button>gdsg</button>
-        </div>
+        <textarea cols="25" rows="5" placeholder="Комментарий"></textarea>
+        <br/>
+      </div>
     );
   }
 }
